@@ -16,7 +16,7 @@ My main objective for this short project was to train a CNN to classify labelled
 
 #### Process
 
-1. Familiarize myself with the file structure. Figure out how to read in data and create the labels from the folder names. Convert png images to numpy arrays of pixels. Reshape data to a tensor with shape (number of images) x (image width) x (image height) x (image depth). I did not rotate or tranform the images because the creators of this dataset already provided multiple images at differnt angles for each fruit type.
+1. Familiarize myself with the file structure. Figure out how to read in data and create the labels from the folder names. Convert png images to numpy arrays of pixels. Reshape data to a tensor with shape (number of images) x (image width) x (image height) x (image depth). I did not rotate or tranform the images because the creators of this dataset already provided multiple images at different angles for each fruit type.
 
 2. For the first CNN model, I chose only two types of fruits to do a binary classification task. In my dense layer, the number of classes was 2 to perform this. I chose bananas and coconuts because they look nothing alike, so I presumed the model could easily classify. It did, with an accuracy of 100%. This is shown in the jupyter notebook titled "keras-binary-classification-initial-model.ipynb".
 
